@@ -34,14 +34,6 @@ img.profile-pic {
 
 }
 
-
-.social-links {
-    margin-left: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-}
-
 @media (min-width: 768px) {
     .header-content {
         display: flex;
@@ -78,7 +70,7 @@ img.profile-pic {
 }
 
 header .social-links a:hover {
-    color: #ddd;
+    color: #8f8f8f;
 }
 
 header h1, header h2 {
@@ -104,7 +96,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color:  #326ba5;;
+    color:  #8f8f8f;
 }
 
 section {
@@ -178,7 +170,7 @@ ul {
 }
 
 .project:hover {
-    transform: scale(1.05);
+    transform: scale(1.0);
 }
 
 footer {
