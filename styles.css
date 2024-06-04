@@ -14,6 +14,46 @@ header {
     position: relative;
 }
 
+
+.upload-resume {
+    /* text-align: left; */
+    margin-top: 1.0rem; /* Adjust margin as needed */
+    
+    position: absolute ;
+
+    /* top: 50%; */
+    transform: translateY(-50%);
+    
+    left: 1rem; 
+    display: flex;
+    align-items: center;
+    cursor: pointer; 
+}
+.upload-button a {
+    color: #333333;
+    text-decoration: none;
+    margin: 1.5rem;
+    transition: color 0.3s ease-in-out;
+}
+  
+.upload-button {
+/* background-color: #333; Match header background color */
+color: white;
+padding: 0.75rem 1rem;
+margin: 1rem 1rem 1rem 1rem;
+border: none;
+border-radius: 5px;
+text-decoration: none;
+transition: background-color 0.3s ease-in-out;
+}
+  
+.upload-button a:hover {
+    color: #915656;
+    border-bottom: 1.5px solid #333;
+    padding-bottom: 0.5rem;
+}
+  
+
 .header-content {
     display: flex;
     align-items: center;
@@ -45,14 +85,8 @@ img.profile-pic {
         margin-top: 4rem; /* Reset margin for larger screens */
         margin-left: 1.8rem; /* Adjust margin to position text next to the picture */
     }
+    
 }
-
-
-/* .profession {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-} */
 
 .social-links {
     position: absolute;
@@ -145,12 +179,6 @@ ul {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* ul li {
-    background-color: rgb(156, 81, 81);
-    padding: 0.5rem;
-    margin: 0.5rem 0;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-} */
 .activities{
     background-color: white;
     padding: 1rem;
